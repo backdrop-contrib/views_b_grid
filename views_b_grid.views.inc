@@ -14,7 +14,7 @@ function views_b_grid_views_plugins() {
         'title' => t('Bootstrap 4 grid'),
         'handler' => 'views_plugin_style_views_b_grid',
         'help' => t("Display content in Views B Grid"),
-        'theme' => 'views_view_views_b',
+        'theme' => 'views_view_views_b_grid',
         'type' => 'normal',
         'path' => backdrop_get_path('module', 'views_b_grid'),
         'theme path' => backdrop_get_path('module', 'views_b_grid'),

@@ -9,7 +9,7 @@
  */
 function views_b_grid_autoload_info() {
   return array(
-    'views_plugin_style_views_b' => 'views_plugin_style_views_b.inc',
+    'views_plugin_style_views_b_grid' => 'views_plugin_style_views_b_grid.inc',
   );
 }
 
@@ -19,8 +19,8 @@ function views_b_grid_autoload_info() {
 function views_b_grid_views_api() {
   return array(
     'api' => '3.0',
-    'path' => backdrop_get_path('module', 'views_b'),
-    'template_path' => backdrop_get_path('module', 'views_b'),
+    'path' => backdrop_get_path('module', 'views_b_grid'),
+    'template_path' => backdrop_get_path('module', 'views_b_grid'),
   );
 }
 
