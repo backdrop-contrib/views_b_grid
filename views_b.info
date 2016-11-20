@@ -1,0 +1,8 @@
+name = Views B Grid
+description = Provides grid columns for Views content that matches the Bootstrap 4 layout markup.
+backdrop = 1.x
+type = module
+package = Views
+dependencies[] = views
+
+project = views_b
