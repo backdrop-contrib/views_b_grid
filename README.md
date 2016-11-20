@@ -1,7 +1,7 @@
 Views B Grid
 ------------------------
 
-Display Views content in a responsive grid by proving capability to use the Bootstrap 4-style CSS classes included in Backdrop.
+Provides ability to put Views content in responsive columns that matches the grid columns in Backdrop core.
 
 INTRODUCTION
 ------------

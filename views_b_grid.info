@@ -1,5 +1,5 @@
 name = Views B Grid
-description = Provides grid columns for Views content that matches the Bootstrap 4 layout markup.
+description = Provides ability to put Views content in responsive columns that matches the grid columns in Backdrop core.
 backdrop = 1.x
 type = module
 package = Views
