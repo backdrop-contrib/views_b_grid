@@ -2,7 +2,7 @@
 
 /**
  * @file
- * Default view template to display content using views_b layout_type
+ * Default view template to display content using views_b_grid layout_type
  */
 ?>
 

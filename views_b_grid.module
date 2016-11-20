@@ -7,7 +7,7 @@
 /**
  * Implements hook_autoload_info.
  */
-function views_b_autoload_info() {
+function views_b_grid_autoload_info() {
   return array(
     'views_plugin_style_views_b' => 'views_plugin_style_views_b.inc',
   );
@@ -16,7 +16,7 @@ function views_b_autoload_info() {
 /**
  * Implements hook_views_api()
  */
-function views_b_views_api() {
+function views_b_grid_views_api() {
   return array(
     'api' => '3.0',
     'path' => backdrop_get_path('module', 'views_b'),
@@ -25,9 +25,9 @@ function views_b_views_api() {
 }
 
 /**
- * Preprocess function for views_view_views_b.tpl.php.
+ * Preprocess function for views_view_views_b_grid.tpl.php.
  */
-function template_preprocess_views_view_views_b(&$vars) {
+function template_preprocess_views_view_views_b_grid(&$vars) {
   // Run preprocess function for unformatted style
   template_preprocess_views_view_unformatted($vars);
   // Get view options

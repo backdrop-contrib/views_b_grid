@@ -2,10 +2,10 @@
 
 /**
  * @file
- * Contains the views_b style plugin.
+ * Contains the views_b_grid style plugin.
  */
 
-class views_plugin_style_views_b extends views_plugin_style {
+class views_plugin_style_views_b_grid extends views_plugin_style {
 
   /**
    * Set default options
